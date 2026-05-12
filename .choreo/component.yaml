@@ -1,0 +1,6 @@
+schemaVersion: 1.2
+endpoints:
+  - name: binnovative-web
+    port: 8080
+    type: REST
+    networkVisibility: Public
