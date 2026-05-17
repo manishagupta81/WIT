@@ -25,36 +25,36 @@
     },
     {
       "time": "9:15 – 9:35 AM",
-      "title": "Opening Keynote: WIT Vision, Reverse Mentorship & Passing the Torch",
-      "speaker": "Manisha — WIT Chair",
-      "description": "Setting the stage for BInnovative. Includes announcement of the Reverse Mentorship program, WIT 2027 leadership transition to Eva (Chair) and Dave (Vice Chair).",
+      "title": "Keynote: GenAI Development, Enterprise AI Platforms & Data",
+      "speaker": "Head of GenAI Development, Enterprise AI Platforms & Enablement, and Head of Data",
+      "description": "How GenAI development, enterprise AI platform enablement, and data strategy come together to drive innovation and business value.",
       "tag": "Hybrid",
       "tagClass": "tag-hybrid",
       "variant": "highlight"
     },
     {
       "time": "9:35 – 9:50 AM",
-      "title": "Keynote: AI & Data — [Topic TBD]",
-      "speaker": "[Speaker TBD]",
-      "description": "The enterprise AI landscape — how data quality, models, and strategy converge to drive transformation.",
+      "title": "Keynote: Technology Vision",
+      "speaker": "CTO",
+      "description": "The CTO's perspective on where technology is headed — strategic priorities, architectural direction, and the role of AI in our enterprise future.",
       "tag": "Hybrid",
       "tagClass": "tag-hybrid",
       "variant": "highlight"
     },
     {
       "time": "9:50 – 10:05 AM",
-      "title": "Keynote: Security in the Age of AI — [Topic TBD]",
-      "speaker": "[Speaker TBD]",
-      "description": "Securing AI systems, protecting data, and building trust in an era of rapid automation.",
+      "title": "Keynote: Security in the Age of AI",
+      "speaker": "Head of Security",
+      "description": "Securing AI systems, protecting data, and building trust in an era of rapid automation. What security leaders need to know.",
       "tag": "Hybrid",
       "tagClass": "tag-hybrid",
       "variant": "highlight"
     },
     {
       "time": "10:05 – 10:25 AM",
-      "title": "Panel: GenAI Governance — Innovation Meets Guardrails",
+      "title": "Panel: Balancing Governance & Innovation",
       "speaker": "GenAI Review Group  |  Moderator: [TBD]",
-      "description": "Balancing rapid innovation with governance, risk management, and responsible AI practices.",
+      "description": "How do we move fast with AI while staying responsible? A candid discussion on balancing governance guardrails with the pace of innovation.",
       "tag": "Hybrid",
       "tagClass": "tag-hybrid",
       "variant": "highlight"
@@ -128,22 +128,28 @@
 
   "speakers": [
     {
+      "initial": "AI",
+      "name": "Head of GenAI Development, Enterprise AI Platforms & Data",
+      "role": "Keynote: AI, Platforms & Data",
+      "description": "Leading GenAI development, enterprise AI platform enablement, and data strategy — driving innovation and business value across the firm."
+    },
+    {
+      "initial": "CTO",
+      "name": "CTO",
+      "role": "Keynote: Technology Vision",
+      "description": "Setting the strategic technology direction — architectural priorities, AI integration, and the enterprise future."
+    },
+    {
+      "initial": "S",
+      "name": "Head of Security",
+      "role": "Keynote: Security in the Age of AI",
+      "description": "Securing AI systems, protecting data, and building trust in an era of rapid automation."
+    },
+    {
       "initial": "M",
       "name": "Manisha",
-      "role": "WIT Chair • Opening Keynote",
-      "description": "Leading Women in Technology at Bessemer. Keynote covers WIT vision, Reverse Mentorship launch, and Passing the Torch to 2027 leadership."
-    },
-    {
-      "initial": "?",
-      "name": "[TBD]",
-      "role": "Keynote: AI & Data",
-      "description": "Keynote on enterprise AI and data strategy — speaker to be announced."
-    },
-    {
-      "initial": "?",
-      "name": "[TBD]",
-      "role": "Keynote: Security",
-      "description": "Keynote on security in the age of AI — speaker to be announced."
+      "role": "WIT Chair • Event Host",
+      "description": "Leading Women in Technology at Bessemer. Hosting BInnovative, announcing Reverse Mentorship and Passing the Torch to 2027 leadership."
     },
     {
       "initial": "E",

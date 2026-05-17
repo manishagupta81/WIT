@@ -6,11 +6,11 @@ const e = data.event;
 const KB = {
   agenda: {
     keywords: ['agenda','schedule','timetable','timeline','program','sessions','when','time','itinerary','plan','order'],
-    response: `Here's the BInnovative agenda for <b>${e.date}</b>:\n\n<b>9:00–9:15</b> — Registration & Coffee\n<b>9:15–9:35</b> — Keynote: Manisha (WIT Chair) — WIT Vision, Mentorship & Passing the Torch\n<b>9:35–9:50</b> — Keynote: AI & Data\n<b>9:50–10:05</b> — Keynote: Security in the Age of AI\n<b>10:05–10:25</b> — Panel: GenAI Governance\n<b>10:30–12:00</b> — 3 Parallel Tracks (Vendor Demos, Business Demos, Technology)\n<b>12:00–1:00</b> — Lunch & Vendor Networking Hour\n\nTotal: 4 hours. Want details on the tracks or any specific session?`
+    response: `Here's the BInnovative agenda for <b>${e.date}</b>:\n\n<b>9:00–9:15</b> — Registration & Coffee\n<b>9:15–9:35</b> — Keynote: Head of GenAI Dev, AI Platforms & Data\n<b>9:35–9:50</b> — Keynote: CTO — Technology Vision\n<b>9:50–10:05</b> — Keynote: Head of Security — Security in the Age of AI\n<b>10:05–10:25</b> — Panel: Balancing Governance & Innovation\n<b>10:30–12:00</b> — 3 Parallel Tracks (Vendor Demos, Business Demos, Technology)\n<b>12:00–1:00</b> — Lunch & Vendor Networking Hour\n\nTotal: 4 hours. Want details on the tracks or any specific session?`
   },
   speakers: {
-    keywords: ['speaker','speakers','keynote','who is speaking','presenters','manisha','eva','dave'],
-    response: `Our speakers include:\n\n<b>Manisha</b> — WIT Chair, Opening Keynote (includes Mentorship launch & Passing the Torch)\n<b>[TBD]</b> — Keynote on AI & Data\n<b>[TBD]</b> — Keynote on Security\n<b>Eva</b> — Incoming WIT Chair 2027\n<b>Dave</b> — Incoming WIT Vice Chair 2027\n\nPanel moderators and track presenters will be announced soon!`
+    keywords: ['speaker','speakers','keynote','who is speaking','presenters','manisha','eva','dave','cto'],
+    response: `Our keynote speakers:\n\n<b>Head of GenAI Development, Enterprise AI Platforms & Data</b> — AI, platforms, and data strategy\n<b>CTO</b> — Technology vision and enterprise direction\n<b>Head of Security</b> — Security in the age of AI\n\n<b>Manisha</b> — WIT Chair & Event Host (Mentorship launch & Passing the Torch)\n<b>Eva</b> — Incoming WIT Chair 2027\n<b>Dave</b> — Incoming WIT Vice Chair 2027`
   },
   vendors: {
     keywords: ['vendor','vendors','openai','aws','wso2','charles river','ontrust','demo','roadmap','office hours','partner','technology partner'],
@@ -29,8 +29,8 @@ const KB = {
     response: `The <b>Reverse Mentorship Program — AI & Data</b> focuses on exchanging expertise in AI, data strategy, machine learning, and data-driven decision-making.\n\n• <b>Mentors:</b> Share domain expertise, gain fresh perspectives on modern AI tools\n• <b>Mentees:</b> Learn real-world AI & data strategy from senior leaders\n\nApplications are open for <b>both mentors and mentees</b>. Scroll to the Mentorship section and click "I Want to Mentor" or "I Want to Be a Mentee" to express interest!`
   },
   panels: {
-    keywords: ['panel','discussion','agentic','agents','governance','genai','review group'],
-    response: `<b>Panel: GenAI Governance — Innovation Meets Guardrails</b> (10:05–10:25 AM)\n\nThe GenAI Review Group discusses balancing rapid innovation with governance, risk management, and responsible AI practices.\n\nThis panel is hybrid — available in-person and via Zoom.`
+    keywords: ['panel','discussion','governance','genai','review group','balance','innovation'],
+    response: `<b>Panel: Balancing Governance & Innovation</b> (10:05–10:25 AM)\n\nHow do we move fast with AI while staying responsible? A candid discussion on balancing governance guardrails with the pace of innovation. Featuring the GenAI Review Group.\n\nThis panel is hybrid — available in-person and via Zoom.`
   },
   tracks: {
     keywords: ['track','tracks','parallel','business demo','technology track','which track','rooms'],
