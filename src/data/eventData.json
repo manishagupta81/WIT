@@ -5,8 +5,8 @@
     "organization": "Women in Technology",
     "location": "Bessemer Office",
     "date": "October 21, 2026",
-    "time": "9:00 AM – 3:00 PM",
-    "duration": "6 hours",
+    "time": "9:00 AM – 1:00 PM",
+    "duration": "4 hours",
     "format": "Hybrid (In-Person + Zoom)",
     "zoomInfo": "Single Zoom link for the full day — join any session remotely from other offices.",
     "audience": "IT, InfoSec, and CCO teams. Open to all offices via Zoom.",
@@ -16,7 +16,7 @@
 
   "agenda": [
     {
-      "time": "9:00 – 9:25 AM",
+      "time": "9:00 – 9:15 AM",
       "title": "Registration, Networking & Coffee",
       "description": "Check in, grab coffee, and connect with peers before the day kicks off.",
       "tag": "In-Person",
@@ -24,222 +24,138 @@
       "variant": ""
     },
     {
-      "time": "9:25 – 9:30 AM",
-      "title": "Break",
-      "description": "",
-      "variant": "break"
-    },
-    {
-      "time": "9:30 – 9:45 AM",
-      "title": "Opening Keynote",
+      "time": "9:15 – 9:35 AM",
+      "title": "Opening Keynote: WIT Vision, Reverse Mentorship & Passing the Torch",
       "speaker": "Manisha — WIT Chair",
-      "description": "Vision for innovation and inclusion at Bessemer. Setting the stage for BInnovative.",
+      "description": "Setting the stage for BInnovative. Includes announcement of the Reverse Mentorship program, WIT 2027 leadership transition to Eva (Chair) and Dave (Vice Chair).",
       "tag": "Hybrid",
       "tagClass": "tag-hybrid",
       "variant": "highlight"
     },
     {
-      "time": "9:45 – 9:50 AM",
-      "title": "Break",
-      "description": "",
-      "variant": "break"
+      "time": "9:35 – 9:50 AM",
+      "title": "Keynote: AI & Data — [Topic TBD]",
+      "speaker": "[Speaker TBD]",
+      "description": "The enterprise AI landscape — how data quality, models, and strategy converge to drive transformation.",
+      "tag": "Hybrid",
+      "tagClass": "tag-hybrid",
+      "variant": "highlight"
     },
     {
       "time": "9:50 – 10:05 AM",
-      "title": "Keynote: [Topic TBD]",
-      "speaker": "Max",
-      "description": "Keynote presentation — topic to be announced.",
+      "title": "Keynote: Security in the Age of AI — [Topic TBD]",
+      "speaker": "[Speaker TBD]",
+      "description": "Securing AI systems, protecting data, and building trust in an era of rapid automation.",
       "tag": "Hybrid",
       "tagClass": "tag-hybrid",
       "variant": "highlight"
     },
     {
-      "time": "10:05 – 10:10 AM",
-      "title": "Break",
-      "description": "",
-      "variant": "break"
-    },
-    {
-      "time": "10:10 – 10:25 AM",
-      "title": "Keynote: [Topic TBD]",
-      "speaker": "Patrick",
-      "description": "Keynote presentation — topic to be announced.",
+      "time": "10:05 – 10:25 AM",
+      "title": "Panel: GenAI Governance — Innovation Meets Guardrails",
+      "speaker": "GenAI Review Group  |  Moderator: [TBD]",
+      "description": "Balancing rapid innovation with governance, risk management, and responsible AI practices.",
       "tag": "Hybrid",
       "tagClass": "tag-hybrid",
       "variant": "highlight"
     },
     {
       "time": "10:25 – 10:30 AM",
-      "title": "Break",
-      "description": "",
+      "title": "Break & Transition to Tracks",
+      "description": "Move to your chosen track room.",
       "variant": "break"
     },
     {
-      "time": "10:30 – 10:45 AM",
-      "title": "Keynote: Importance of Data for AI",
-      "speaker": "Eva Dave",
-      "description": "Why data quality, governance, and strategy are the foundation for every successful AI initiative.",
-      "tag": "Hybrid",
-      "tagClass": "tag-hybrid",
+      "time": "10:30 AM – 12:00 PM",
+      "title": "Parallel Tracks (see below)",
+      "description": "Three simultaneous tracks: Vendor Demos, Business Demos, and Technology. Choose the track most relevant to you.",
+      "tag": "All Tracks",
+      "tagClass": "tag-vendor",
       "variant": "highlight"
     },
     {
-      "time": "10:45 – 10:50 AM",
-      "title": "Break",
-      "description": "",
-      "variant": "break"
-    },
-    {
-      "time": "10:50 – 11:10 AM",
-      "title": "Demo Roadmap: OpenAI",
-      "description": "What's coming from OpenAI and how enterprise builders can leverage it. Live demo and Q&A.",
-      "tag": "Vendor — Onsite/Remote",
-      "tagClass": "tag-vendor"
-    },
-    {
-      "time": "11:10 – 11:15 AM",
-      "title": "Break",
-      "description": "",
-      "variant": "break"
-    },
-    {
-      "time": "11:15 – 11:35 AM",
-      "title": "Demo Roadmap: AWS",
-      "description": "AI/ML services roadmap, enterprise patterns, and what's new on the AWS AI stack.",
-      "tag": "Vendor — Onsite/Remote",
-      "tagClass": "tag-vendor"
-    },
-    {
-      "time": "11:35 – 11:40 AM",
-      "title": "Break",
-      "description": "",
-      "variant": "break"
-    },
-    {
-      "time": "11:40 AM – 12:00 PM",
-      "title": "Demo Roadmap: WSO2",
-      "description": "Integration-first AI strategy, API management, and composable enterprise architecture.",
-      "tag": "Vendor — Onsite/Remote",
-      "tagClass": "tag-vendor"
-    },
-    {
-      "time": "12:00 – 12:05 PM",
-      "title": "Break",
-      "description": "",
-      "variant": "break"
-    },
-    {
-      "time": "12:05 – 12:45 PM",
-      "title": "Panel: Agents & the Agentic Enterprise",
-      "speaker": "Moderator: [TBD]  |  Panelists: [TBD]",
-      "description": "How autonomous AI agents are reshaping enterprise workflows, decision-making, and operations. What does an agentic future look like?",
-      "tag": "Hybrid",
-      "tagClass": "tag-hybrid",
-      "variant": "highlight"
-    },
-    {
-      "time": "12:45 – 1:30 PM",
-      "title": "Lunch & Vendor Office Hours",
-      "description": "Lunch is served — all expenses covered by WIT. Vendors (OpenAI, AWS, WSO2) available in conference rooms for builder and business Q&A.",
-      "tag": "Lunch Provided",
+      "time": "12:00 – 1:00 PM",
+      "title": "Lunch & Vendor Networking Hour",
+      "description": "Lunch is served — all expenses covered by WIT. Vendors remain available for one-on-one conversations, architecture questions, and deeper dives.",
+      "tag": "Lunch + Networking",
       "tagClass": "tag-lunch",
       "variant": "break"
-    },
-    {
-      "time": "1:30 – 1:35 PM",
-      "title": "Break",
-      "description": "",
-      "variant": "break"
-    },
-    {
-      "time": "1:35 – 2:15 PM",
-      "title": "Panel: GenAI Governance — Innovation Meets Guardrails",
-      "speaker": "GenAI Review Group  |  Moderator: [TBD]",
-      "description": "The GenAI Review Group discusses balancing rapid innovation with governance, risk management, and responsible AI practices.",
-      "tag": "Hybrid",
-      "tagClass": "tag-hybrid",
-      "variant": "highlight"
-    },
-    {
-      "time": "2:15 – 2:20 PM",
-      "title": "Break",
-      "description": "",
-      "variant": "break"
-    },
-    {
-      "time": "2:20 – 2:40 PM",
-      "title": "Vendor Office Hours (continued)",
-      "description": "Extended one-on-one time with OpenAI, AWS, and WSO2 in designated conference rooms. Bring your architecture questions.",
-      "tag": "Vendor — Conference Rooms",
-      "tagClass": "tag-vendor"
-    },
-    {
-      "time": "2:40 – 2:45 PM",
-      "title": "Break",
-      "description": "",
-      "variant": "break"
-    },
-    {
-      "time": "2:45 – 2:55 PM",
-      "title": "Reverse Mentorship Launch",
-      "description": "Announcing the new Reverse Mentorship program. Mentor reveal and open call for mentee applications.",
-      "tag": "In-Person",
-      "tagClass": "tag-inperson",
-      "variant": "highlight"
-    },
-    {
-      "time": "2:55 – 3:00 PM",
-      "title": "Break",
-      "description": "",
-      "variant": "break"
-    },
-    {
-      "time": "3:00 – 3:15 PM",
-      "title": "Passing the Torch — WIT 2027 & Beyond",
-      "description": "Celebrating the journey so far and introducing the next chapter of Women in Technology leadership.",
-      "tag": "In-Person",
-      "tagClass": "tag-inperson",
-      "variant": "highlight"
-    },
-    {
-      "time": "3:15 – 3:20 PM",
-      "title": "Closing Remarks & Networking",
-      "description": "Thank you, next steps, and informal networking to wrap up the day.",
-      "tag": "In-Person",
-      "tagClass": "tag-inperson"
     }
   ],
+
+  "tracks": {
+    "time": "10:30 AM – 12:00 PM",
+    "description": "Choose one track to attend. All run simultaneously for 1.5 hours.",
+    "items": [
+      {
+        "name": "Track 1: Vendor Demos",
+        "icon": "🚀",
+        "color": "#10A37F",
+        "description": "Live product roadmaps and demos from our technology partners. See what's coming and how to build with it.",
+        "sessions": [
+          { "title": "OpenAI", "description": "Latest models, APIs, and enterprise capabilities", "duration": "18 min" },
+          { "title": "AWS", "description": "Amazon Bedrock, SageMaker, and AI/ML stack", "duration": "18 min" },
+          { "title": "WSO2", "description": "Integration-first AI strategy and API management", "duration": "18 min" },
+          { "title": "Charles River", "description": "AI-driven investment management solutions", "duration": "18 min" },
+          { "title": "OnTrust", "description": "Trust, privacy, and AI risk management platform", "duration": "18 min" }
+        ]
+      },
+      {
+        "name": "Track 2: Business Demos",
+        "icon": "💼",
+        "color": "#B8977E",
+        "description": "How AI and data are transforming our core business lines. Real use cases from across the firm.",
+        "sessions": [
+          { "title": "Client Advisory (CA)", "description": "AI-enhanced client insights and advisory workflows", "duration": "~20 min" },
+          { "title": "Investments", "description": "Data-driven investment analysis and portfolio intelligence", "duration": "~20 min" },
+          { "title": "Wealth Planning (WP)", "description": "AI-powered planning tools and automation", "duration": "~20 min" },
+          { "title": "Operations", "description": "Operational efficiency through AI and intelligent automation", "duration": "~20 min" }
+        ]
+      },
+      {
+        "name": "Track 3: Technology",
+        "icon": "⚙️",
+        "color": "#00594A",
+        "description": "Deep technical sessions on building, deploying, and securing AI/data systems at enterprise scale.",
+        "sessions": [
+          { "title": "AI Architecture & Patterns", "description": "Building enterprise-grade AI systems", "duration": "~25 min" },
+          { "title": "Data Platform & Engineering", "description": "Modern data infrastructure for AI workloads", "duration": "~25 min" },
+          { "title": "Security & Compliance", "description": "Securing AI pipelines and meeting regulatory requirements", "duration": "~25 min" }
+        ]
+      }
+    ]
+  },
 
   "speakers": [
     {
       "initial": "M",
       "name": "Manisha",
       "role": "WIT Chair • Opening Keynote",
-      "description": "Leading Women in Technology at Bessemer with a focus on inclusive innovation and technology empowerment."
+      "description": "Leading Women in Technology at Bessemer. Keynote covers WIT vision, Reverse Mentorship launch, and Passing the Torch to 2027 leadership."
     },
     {
-      "initial": "M",
-      "name": "Max",
-      "role": "Keynote Speaker",
-      "description": "Topic to be announced. Stay tuned for details."
+      "initial": "?",
+      "name": "[TBD]",
+      "role": "Keynote: AI & Data",
+      "description": "Keynote on enterprise AI and data strategy — speaker to be announced."
     },
     {
-      "initial": "P",
-      "name": "Patrick",
-      "role": "Keynote Speaker",
-      "description": "Topic to be announced. Stay tuned for details."
+      "initial": "?",
+      "name": "[TBD]",
+      "role": "Keynote: Security",
+      "description": "Keynote on security in the age of AI — speaker to be announced."
     },
     {
       "initial": "E",
       "name": "Eva",
-      "role": "Keynote: Data for AI • Incoming WIT Chair 2027",
-      "description": "Co-presenting on the importance of data for AI. Taking the helm of Women in Technology for 2027."
+      "role": "Incoming WIT Chair 2027",
+      "description": "Taking the helm of Women in Technology for 2027 and beyond."
     },
     {
       "initial": "D",
       "name": "Dave",
-      "role": "Keynote: Data for AI • Incoming WIT Vice Chair 2027",
-      "description": "Co-presenting on the importance of data for AI. Partnering with Eva to shape WIT's future."
+      "role": "Incoming WIT Vice Chair 2027",
+      "description": "Partnering with Eva to shape WIT's future direction."
     }
   ],
 
@@ -248,19 +164,31 @@
       "name": "OpenAI",
       "color": "#10A37F",
       "description": "Explore the latest models, APIs, and enterprise capabilities from the team behind GPT and beyond.",
-      "officeHours": "Office Hours: 12:45 – 2:40 PM • Conference Room TBD"
+      "officeHours": "Networking: 12:00 – 1:00 PM"
     },
     {
       "name": "AWS",
       "color": "#FF9900",
       "description": "Deep dive into Amazon Bedrock, SageMaker, and the full AI/ML stack for enterprise builders.",
-      "officeHours": "Office Hours: 12:45 – 2:40 PM • Conference Room TBD"
+      "officeHours": "Networking: 12:00 – 1:00 PM"
     },
     {
       "name": "WSO2",
       "color": "#F47B20",
       "description": "API-first architecture, integration platforms, and composable enterprise strategy for the AI era.",
-      "officeHours": "Office Hours: 12:45 – 2:40 PM • Conference Room TBD"
+      "officeHours": "Networking: 12:00 – 1:00 PM"
+    },
+    {
+      "name": "Charles River",
+      "color": "#1A5276",
+      "description": "AI-driven investment management, order management systems, and portfolio analytics.",
+      "officeHours": "Networking: 12:00 – 1:00 PM"
+    },
+    {
+      "name": "OnTrust",
+      "color": "#6C3FA0",
+      "description": "Trust intelligence, privacy management, and AI risk governance platform.",
+      "officeHours": "Networking: 12:00 – 1:00 PM"
     }
   ],
 
@@ -281,29 +209,29 @@
     {
       "icon": "🎓",
       "title": "Keynotes",
-      "description": "Hear from leaders shaping innovation strategy and inclusive technology culture."
+      "description": "Hear from leaders on AI, data strategy, and security — setting the vision for innovation."
     },
     {
       "icon": "🚀",
-      "title": "Live Demos",
-      "description": "Roadmap previews from OpenAI, AWS, and WSO2 — see what's next for builders."
+      "title": "3 Parallel Tracks",
+      "description": "Vendor demos, business use cases, and deep technology sessions — choose your path."
     },
     {
       "icon": "💬",
-      "title": "Panel Discussions",
-      "description": "Deep dives into agentic enterprise, GenAI governance, and responsible innovation."
+      "title": "Governance Panel",
+      "description": "Balancing GenAI innovation with responsible guardrails and enterprise governance."
     },
     {
       "icon": "🤝",
-      "title": "Reverse Mentorship",
-      "description": "Launching a new program connecting emerging talent with senior leaders."
+      "title": "Vendor Networking",
+      "description": "One hour dedicated to conversations with OpenAI, AWS, WSO2, Charles River, and OnTrust."
     }
   ],
 
   "logistics": [
-    { "icon": "📍", "title": "Location", "description": "Bessemer Office — exact room details to follow." },
-    { "icon": "🕑", "title": "Date & Time", "description": "October 21, 2026 • 9:00 AM – 3:00 PM (6 hours)" },
-    { "icon": "🍳", "title": "Lunch", "description": "Provided at no cost — all expenses covered by WIT." },
+    { "icon": "📍", "title": "Location", "description": "Bessemer Office — three track rooms + main stage." },
+    { "icon": "🕑", "title": "Date & Time", "description": "October 21, 2026 • 9:00 AM – 1:00 PM (4 hours)" },
+    { "icon": "🍳", "title": "Lunch", "description": "Served at 12:00 PM — all expenses covered by WIT." },
     { "icon": "💻", "title": "Zoom Access", "description": "Single Zoom link for the full day — join any session remotely from other offices." },
     { "icon": "🎬", "title": "Who's Invited", "description": "IT, InfoSec, and CCO teams. Open to all offices via Zoom." },
     { "icon": "💰", "title": "Cost", "description": "Free — fully sponsored by Women in Technology." }

@@ -6,15 +6,15 @@ const e = data.event;
 const KB = {
   agenda: {
     keywords: ['agenda','schedule','timetable','timeline','program','sessions','when','time','itinerary','plan','order'],
-    response: `Here's the BInnovative agenda for <b>${e.date}</b>:\n\n<b>9:00–9:25</b> — Registration & Coffee\n<b>9:30–9:45</b> — Keynote: Manisha (WIT Chair)\n<b>9:50–10:05</b> — Keynote: Max\n<b>10:10–10:25</b> — Keynote: Patrick\n<b>10:30–10:45</b> — Keynote: Eva & Dave — Importance of Data for AI\n<b>10:50–11:10</b> — Demo Roadmap: OpenAI\n<b>11:15–11:35</b> — Demo Roadmap: AWS\n<b>11:40–12:00</b> — Demo Roadmap: WSO2\n<b>12:05–12:45</b> — Panel: Agents & the Agentic Enterprise\n<b>12:45–1:30</b> — Lunch & Vendor Office Hours\n<b>1:35–2:15</b> — Panel: GenAI Governance\n<b>2:20–2:40</b> — Vendor Office Hours (continued)\n<b>2:45–2:55</b> — Reverse Mentorship Launch\n<b>3:00–3:15</b> — Passing the Torch\n\n5-minute breaks between each session. Want details on any specific session?`
+    response: `Here's the BInnovative agenda for <b>${e.date}</b>:\n\n<b>9:00–9:15</b> — Registration & Coffee\n<b>9:15–9:35</b> — Keynote: Manisha (WIT Chair) — WIT Vision, Mentorship & Passing the Torch\n<b>9:35–9:50</b> — Keynote: AI & Data\n<b>9:50–10:05</b> — Keynote: Security in the Age of AI\n<b>10:05–10:25</b> — Panel: GenAI Governance\n<b>10:30–12:00</b> — 3 Parallel Tracks (Vendor Demos, Business Demos, Technology)\n<b>12:00–1:00</b> — Lunch & Vendor Networking Hour\n\nTotal: 4 hours. Want details on the tracks or any specific session?`
   },
   speakers: {
-    keywords: ['speaker','speakers','keynote','who is speaking','presenters','manisha','max','patrick','eva','dave'],
-    response: `Our speakers include:\n\n<b>Manisha</b> — WIT Chair, Opening Keynote\n<b>Max</b> — Keynote (topic TBD)\n<b>Patrick</b> — Keynote (topic TBD)\n<b>Eva & Dave</b> — Keynote: Importance of Data for AI\n<b>Eva</b> — Incoming WIT Chair 2027\n<b>Dave</b> — Incoming WIT Vice Chair 2027\n\nPanel moderators and panelists will be announced soon!`
+    keywords: ['speaker','speakers','keynote','who is speaking','presenters','manisha','eva','dave'],
+    response: `Our speakers include:\n\n<b>Manisha</b> — WIT Chair, Opening Keynote (includes Mentorship launch & Passing the Torch)\n<b>[TBD]</b> — Keynote on AI & Data\n<b>[TBD]</b> — Keynote on Security\n<b>Eva</b> — Incoming WIT Chair 2027\n<b>Dave</b> — Incoming WIT Vice Chair 2027\n\nPanel moderators and track presenters will be announced soon!`
   },
   vendors: {
-    keywords: ['vendor','vendors','openai','aws','wso2','demo','roadmap','office hours','partner','technology partner'],
-    response: `Three technology partners are featured:\n\n<b>OpenAI</b> — Demo at 10:50 AM + office hours 12:45–2:40 PM\n<b>AWS</b> — Demo at 11:15 AM + office hours 12:45–2:40 PM\n<b>WSO2</b> — Demo at 11:40 AM + office hours 12:45–2:40 PM\n\nVendors may be onsite or remote for demos. During office hours they'll be in designated conference rooms to answer builder and business questions.`
+    keywords: ['vendor','vendors','openai','aws','wso2','charles river','ontrust','demo','roadmap','office hours','partner','technology partner'],
+    response: `Five technology partners in Track 1 (Vendor Demos, 10:30–12:00):\n\n<b>OpenAI</b> — Latest models & enterprise APIs\n<b>AWS</b> — Bedrock, SageMaker, AI/ML stack\n<b>WSO2</b> — Integration & API management\n<b>Charles River</b> — AI-driven investment management\n<b>OnTrust</b> — Trust, privacy & AI risk\n\nAll vendors stay for networking from <b>12:00–1:00 PM</b>.`
   },
   zoom: {
     keywords: ['zoom','remote','virtual','online','join remotely','other offices','dial in','link','virtual access'],
@@ -22,7 +22,7 @@ const KB = {
   },
   lunch: {
     keywords: ['lunch','food','eat','catering','meal','cost','free','expense','pay','price'],
-    response: `Yes! <b>Lunch will be served</b> during the event (12:45–1:30 PM). All expenses are covered by ${e.organization} — there's no cost to attend.\n\nLunch overlaps with vendor office hours, so you can eat and chat with OpenAI, AWS, and WSO2 teams.`
+    response: `Yes! <b>Lunch will be served</b> from 12:00–1:00 PM. All expenses are covered by ${e.organization} — there's no cost to attend.\n\nLunch overlaps with the vendor networking hour, so you can eat and chat with OpenAI, AWS, WSO2, Charles River, and OnTrust teams.`
   },
   mentorship: {
     keywords: ['mentor','mentee','mentorship','reverse','application','apply','sign up','program'],
@@ -30,7 +30,11 @@ const KB = {
   },
   panels: {
     keywords: ['panel','discussion','agentic','agents','governance','genai','review group'],
-    response: `Two panel discussions:\n\n<b>1. Agents & the Agentic Enterprise</b> (12:05 – 12:45 PM)\nHow autonomous AI agents are reshaping enterprise workflows and operations.\n\n<b>2. GenAI Governance</b> (1:35 – 2:15 PM)\nThe GenAI Review Group discusses balancing innovation with governance and responsible AI.\n\nBoth panels are hybrid — available in-person and via Zoom.`
+    response: `<b>Panel: GenAI Governance — Innovation Meets Guardrails</b> (10:05–10:25 AM)\n\nThe GenAI Review Group discusses balancing rapid innovation with governance, risk management, and responsible AI practices.\n\nThis panel is hybrid — available in-person and via Zoom.`
+  },
+  tracks: {
+    keywords: ['track','tracks','parallel','business demo','technology track','which track','rooms'],
+    response: `Three parallel tracks run from <b>10:30 AM – 12:00 PM</b>:\n\n<b>Track 1: Vendor Demos</b>\nOpenAI, AWS, WSO2, Charles River, OnTrust\n\n<b>Track 2: Business Demos</b>\nClient Advisory, Investments, Wealth Planning, Operations\n\n<b>Track 3: Technology</b>\nAI Architecture, Data Platform, Security & Compliance\n\nChoose the track most relevant to you. All run simultaneously for 1.5 hours.`
   },
   location: {
     keywords: ['where','location','place','venue','address','room','building','directions','parking'],
@@ -46,15 +50,19 @@ const KB = {
   },
   duration: {
     keywords: ['how long','duration','hours','length','start','end','finish'],
-    response: `BInnovative runs from <b>${e.time} on ${e.date}</b> — approximately ${e.duration}. This includes registration, four keynotes, three demo sessions, two panels, lunch, vendor office hours, and closing ceremonies.`
+    response: `BInnovative runs from <b>${e.time} on ${e.date}</b> — ${e.duration} total. This includes registration, three keynotes, governance panel, three parallel tracks (1.5 hrs), and a vendor networking lunch hour.`
   },
   date: {
     keywords: ['date','when is it','what day','october'],
     response: `BInnovative takes place on <b>${e.date}</b>, from ${e.time} at the ${e.location}. It's a hybrid event — join in person or via Zoom.`
   },
   dataai: {
-    keywords: ['data for ai','data quality','data governance','importance of data'],
-    response: `<b>Eva & Dave</b> will co-present the keynote <b>"Importance of Data for AI"</b> at 10:30 AM.\n\nThis session covers why data quality, governance, and strategy are the foundation for every successful AI initiative. A must-attend for anyone building or leading AI projects.`
+    keywords: ['data for ai','data quality','data governance','importance of data','ai and data'],
+    response: `The <b>AI & Data keynote</b> is at 9:35 AM. Speaker TBD.\n\nThis session covers the enterprise AI landscape — how data quality, models, and strategy converge to drive transformation. A must-attend for anyone building or leading AI/data projects.`
+  },
+  security: {
+    keywords: ['security','infosec','cybersecurity','secure','compliance','risk'],
+    response: `The <b>Security in the Age of AI keynote</b> is at 9:50 AM. Speaker TBD.\n\nCovers securing AI systems, protecting data, and building trust in an era of rapid automation. Track 3 (Technology) also includes a Security & Compliance session during the parallel tracks.`
   },
   wit: {
     keywords: ['wit','women in tech','women in technology','about wit','what is wit','organization'],
@@ -88,16 +96,16 @@ function findAnswer(query) {
     return `You're welcome! See you at BInnovative on ${e.date}. If you have more questions, I'm here to help.`;
   }
 
-  return `I can help with event details! Try asking about:\n\n• <b>Agenda</b> — full schedule\n• <b>Speakers</b> — keynotes & panelists\n• <b>Vendors</b> — OpenAI, AWS, WSO2 demos & office hours\n• <b>Zoom</b> — remote access info\n• <b>Lunch</b> — food & costs\n• <b>Mentorship</b> — reverse mentorship program\n• <b>Panels</b> — discussion topics\n• <b>Location</b> — venue details\n• <b>Data for AI</b> — Eva & Dave's keynote`;
+  return `I can help with event details! Try asking about:\n\n• <b>Agenda</b> — full schedule\n• <b>Tracks</b> — 3 parallel sessions\n• <b>Speakers</b> — keynotes & panelists\n• <b>Vendors</b> — OpenAI, AWS, WSO2, Charles River, OnTrust\n• <b>Zoom</b> — remote access info\n• <b>Lunch</b> — food & costs\n• <b>Mentorship</b> — reverse mentorship program\n• <b>Security</b> — security keynote & track\n• <b>Location</b> — venue details`;
 }
 
 const suggestions = [
   "What's the agenda?",
-  'Who are the speakers?',
-  'Tell me about vendors',
+  'Tell me about the tracks',
+  'Who are the vendors?',
   'How do I join on Zoom?',
-  'Mentee application',
-  'Data for AI keynote',
+  'Mentorship program',
+  'Security keynote',
 ];
 
 const Chatbot = forwardRef(function Chatbot(_, ref) {

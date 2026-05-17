@@ -5,10 +5,10 @@ export default function Navbar() {
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#tracks">Tracks</a></li>
         <li><a href="#speakers">Speakers</a></li>
         <li><a href="#vendors">Vendors</a></li>
         <li><a href="#mentorship">Mentorship</a></li>
-        <li><a href="#logistics">Logistics</a></li>
       </ul>
     </nav>
   );

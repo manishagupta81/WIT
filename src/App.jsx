@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Agenda from './components/Agenda';
+import Tracks from './components/Tracks';
 import Speakers from './components/Speakers';
 import Vendors from './components/Vendors';
 import Mentorship from './components/Mentorship';
@@ -22,6 +23,7 @@ export default function App() {
       <Hero />
       <About />
       <Agenda />
+      <Tracks />
       <Speakers />
       <Vendors />
       <Mentorship onOpenChat={(role) => setFormRole(role)} />
